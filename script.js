@@ -5,6 +5,7 @@
 function moonOrbits(earthDays) {
   const lunarOrbitPeriod = 27.3;
   return earthDays / lunarOrbitPeriod;
+  //return Math.floor((days / ORBIT) * 1000) / 1000;
 }
 
 console.log(moonOrbits(54)); // ans - 1.9780219780219779
@@ -23,6 +24,7 @@ function circleArea(radius) {
 function circlePerimeter(radius) {
   const pi = Math.PI;
   return 2 * pi * radius;
+  //return (MATH.PI * radius ** 2).toFixed(2);
 }
 
 console.log(circleArea(10)); // ans - 314.1592653589793
